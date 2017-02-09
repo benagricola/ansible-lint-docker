@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:2
 MAINTAINER bagricola@squiz.co.uk
 
-RUN pip3 install yamllint ansible-lint ansible-review
+RUN pip install yamllint ansible-lint ansible-review
